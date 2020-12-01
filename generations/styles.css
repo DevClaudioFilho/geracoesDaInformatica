@@ -1,4 +1,131 @@
 @charset "UTF-8";
-h1{
-    color: red;
+
+header.masthead {
+    background-image: url("../assets/img/generation/zero/capa.jfif")  ;
+    
+  }
+
+p{
+    text-justify: inter-word;
+}
+
+img.textImage {
+    max-width:600px;
+    width:100% ;
+    height:300px;
+    margin-bottom:16px ;
+}
+section.nonePaddin{
+    padding-top: 0px;
+}
+
+div.image-item img{
+    max-width: 300px;
+}
+div.contentFamous{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 0  96px 0;
+}
+
+div.contentFamous  + div.contentFamous {
+    padding: 96px 0 0 0;
+}
+
+div.infosFamous{
+    width: 100%;
+    max-width: 850px;
+    height: 200px;
+}
+div.infosFamous h4{
+    font-size: 1.5rem;
+}
+div.infosFamous h5{
+    font-size: 15px;
+}
+div.infosFamous p{
+    font-size: 0.8rem;
+}
+
+img.perfilPhoto {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+section a {
+    font-weight: bold;
+    -webkit-text-stroke: 0.06px black; 
+    cursor: pointer;
+}
+
+ul.listLink{
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ul.listLink li{
+    text-align: start;
+    width: auto;
+}
+ul.listLink li + li{
+    margin-top: 5px;
+}
+
+@media(max-width: 1200px){ 
+    div.infosFamous{
+        max-width: 700px;
+    }
+    div.infosFamous h4{
+        font-size: 1.2rem;
+    }
+    div.infosFamous h5{
+        font-size: 0.9rem;
+    }
+    div.infosFamous p{
+        font-size: 0.7rem;
+    }
+    
+    img.perfilPhoto {
+        width:150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+}
+
+@media(max-width: 992px){     
+
+    div.contentFamous{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 461px){  
+    div.infosFamous{
+        height: auto;
+    }  
+    div.infosFamous h4{
+        font-size: 1rem;
+    }
+    div.infosFamous h5{
+        font-size: 0.7rem;
+    }
+    div.infosFamous p{
+        font-size: 0.7rem;
+    }
+    
+    img.perfilPhoto {
+        width:100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
 }
