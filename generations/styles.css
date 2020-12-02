@@ -1,9 +1,26 @@
 @charset "UTF-8";
 
-header.masthead {
+header.masthead.zero{
     background-image: url("../assets/img/generation/zero/capa.jfif")  ;
-    
   }
+
+  header.masthead.um{
+    background-image: url("../assets/img/generation/primeira/fundo.jpg")  ;
+  }
+  header.masthead.dois{
+    background-image: url("../assets/img/generation/segunda/capa.jpg")  ;
+  }
+  header.masthead.tres{
+    background-image: url("../assets/img/generation/terceira/microsoft-ms-dos.jpg")  ;
+  }
+  header.masthead.quatro{
+    background-image: url("../assets/img/generation/quarta/capa.jpg")  ;
+  }
+  header.masthead.cinco{
+    background-image: url("../assets/img/generation/zero/capa.jfif")  ;
+  }
+
+
 
 p{
     text-justify: inter-word;
